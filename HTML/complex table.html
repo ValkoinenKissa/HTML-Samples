@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<style>
+		div.a {
+			text-align: left;
+		}
+		caption {
+			text-align: center;
+		}
+		table, th, td {
+			border: 1px solid #000;
+			padding: 1px;
+		}
+
+		td {
+			text-align: center;
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejemplo de tabla compleja</title>
+	<div class="a">
+		<h3>Comparativa de reproductores MP3</h3>
+	</div>
+
+</head>
+<body>
+	<table>
+		<caption>Tabla comparativa de las caracteristicas tecnicas de los reproductores MP3</caption>
+		<tr>
+			<th></th>
+			<th abbr="Reproductor mini" scope="col" colspan="3">
+				<img src="images/ipod1.png" alt="imagen de un ipod pequeño">
+				<br><strong>MP3 mini</strong>
+			</th>
+			<th abbr="Reproductor grande" scope="col" colspan="2"> 
+				<img src="images/ipod2.png" alt="imagen de un ipod grande">
+				<br><strong>MP3 Grande</strong>
+			</th>
+			<tr>
+				<th scope="row"><strong>Capacidad de<br>
+				almacenamiento</strong></th>
+				<td>4GB <br> (1000 canciones)</td>
+				<td>8GB <br> (2000 canciones)</td>
+				<td>16GB <br> (4000 canciones)</td>
+				<td>30GB <br> (7500 canciones)</td>
+				<td>80GB <br> (20000 canciones)</td>
+			</tr>
+			<tr>
+				<th><strong>Colores</strong></th>
+				<th><img src="images/gris.png" alt="Color gris"></th>
+				<th><img src="images/colores.png" alt="colores diferentes"></th>
+				<th><img src="images/negro.png" alt="color negro"></th>
+				<th scope="col" colspan="2"><img src="images/negroygris.png" alt="imagen color negro y gris"></th>
+			</tr>
+			<tr>
+				<th><strong>Pantalla</strong></th>
+				<td colspan="3"><abbr>LCD</abbr> 3cm (diagonal) con<br>retroiluminacion</td>
+				<td colspan="2"><abbr>LCD</abbr> 6cm (diagonal)<br> con retroiluminacion</td></tr>
+				<tr>
+					<th scope="row" rowspan="2"><strong>Tiempo de<br>carga</strong></th>
+					<td colspan="3" rowspan="2">Unas 3 horas</td>
+					<td colspan="2">Unas 4 horas</td>
+				</tr>
+				<tr>
+					<td colspan="2">Unas 2 hortas para<br>alcanzar el 80% de la<br>capacidad</td>
+				</tr>
+			</table>
+		</body>
+		</html>
