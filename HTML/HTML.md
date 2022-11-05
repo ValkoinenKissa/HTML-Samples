@@ -1,0 +1,1 @@
+# Here you will find different html samples, each type is organized in folders (such as tables, forms, templates).
